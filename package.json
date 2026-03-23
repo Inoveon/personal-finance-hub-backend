@@ -1,0 +1,19 @@
+{
+  "name": "personal-finance-hub",
+  "version": "0.1.0",
+  "description": "Sistema simples de controle financeiro pessoal com backend + frontend",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces",
+    "lint": "npm run lint --workspaces",
+    "format": "prettier --write \"**/*.{ts,tsx,json,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0"
+  }
+}
